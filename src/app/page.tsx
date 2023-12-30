@@ -14,7 +14,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="/landing-01"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -27,6 +27,20 @@ export default function Home() {
           </h2>
           <p className="m-0 max-w-[30ch] text-zinc-600">
             Landing page básica com texto informativo de forma atrativa e descontraída
+          </p>
+        </a>
+        <a
+          href="/landing-02"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+        >
+          <h2 className="mb-3 text-2xl font-semibold">
+            Landing Page 02
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className="m-0 max-w-[30ch] text-zinc-600">
+            Landing page para divulgação de uma proposta
           </p>
         </a>
       </div>

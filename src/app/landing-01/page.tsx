@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function LandingPage() {
+export default function LandingPage01() {
   return (
     <div className="flex flex-col w-full sm:w-4/5 mx-auto h-full my-8 sm:my-2 top-4 justify-center items-center gap-3 sm:gap-5 md:gap-8">
       <h1 className="text-center  text-zinc-950 text-4xl sm:text-6xl lg:text-7xl font-bold font-['Lato'] sm:tracking-wide"><span className="black-gradient">Venha descobrir coisas novas conosco</span></h1>
