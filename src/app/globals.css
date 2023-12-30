@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow-y: hidden;
-}
-
 .black-gradient {
   background: linear-gradient(178deg, #7c4c1f 4.87%, #161616 100%);
   background-clip: text;
