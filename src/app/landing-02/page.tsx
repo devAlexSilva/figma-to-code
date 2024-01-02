@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { Lato } from "next/font/google"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Services from "./components/Services"
 
 const lato = Lato({
   subsets: ['latin'],
@@ -18,9 +19,7 @@ const LandingPage02 = () => {
     <div className={lato.className}>
       <Header />
       <Hero />
-      <main>
-        <h1>Hello World</h1>
-      </main>
+      <Services />
     </div>
   )
 }
