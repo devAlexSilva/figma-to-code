@@ -7,7 +7,7 @@ import Profile from './Profile'
 
 const Header = () => {
   return (
-    <header className="bg-primary-orange text-gray-phone flex justify-between w-full h-20">
+    <header className="fixed bg-primary-orange text-gray-phone flex justify-between w-full h-20">
       <div className="container flex mx-auto">
         <div className="flex justify-between items-center w-[80%]">
           <Image
