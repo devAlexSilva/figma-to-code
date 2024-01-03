@@ -13,7 +13,8 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         walk: 'url("/landing-01/assets/weird.png")',
-        landin02Hero: 'url(landing-02/assets/bg-hero.jpg)'
+        landin02Hero: 'url(landing-02/assets/bg-hero.jpg)',
+        landin03Hero: 'url(landing-03/assets/bg-hero.png)'
       },
       colors: {
         'primary-blue': '#106eb0',
