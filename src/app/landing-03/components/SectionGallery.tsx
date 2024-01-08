@@ -1,9 +1,9 @@
 import gallery01 from '@/app/landing-03/assets/gallery01.png'
 import Image from "next/image"
 
-const Section03 = () => {
+const SectionGallery = () => {
   return (
-    <div className="h-96 max-w-[1230px] mx-auto my-16">
+    <div className="max-w-[1230px] mx-auto mt-16">
       <h1 className="w-[584px] h-10 mb-12 text-sky-900 text-4xl font-black uppercase tracking-tight">our latest jewelry</h1>
       <div className='flex flex-col items-center'>
         <ul className='flex gap-8'>
@@ -23,4 +23,4 @@ const Section03 = () => {
   )
 }
 
-export default Section03
+export default SectionGallery

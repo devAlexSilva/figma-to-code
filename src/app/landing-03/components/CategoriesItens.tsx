@@ -7,7 +7,7 @@ type Props = {
   description: string
 }
 
-const Section01Itens = ({ prodImg, alt, description }: Props) => {
+const SectionCategoriesItens = ({ prodImg, alt, description }: Props) => {
   return (
     <li className='flex flex-col items-center'>
       <Image src={prodImg} alt={alt} />
@@ -16,4 +16,4 @@ const Section01Itens = ({ prodImg, alt, description }: Props) => {
   )
 }
 
-export default Section01Itens
+export default SectionCategoriesItens

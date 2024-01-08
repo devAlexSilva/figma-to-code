@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const SectionOurServices = () => {
   return (
-    <div className="h-96 max-w-[1230px] mx-auto my-72">
+    <div className="h-96 max-w-[1230px] mx-auto my-16">
       <h1 className="w-[584px] h-10 mb-12 text-sky-900 text-4xl font-black uppercase tracking-tight">Our Services</h1>
       <div className='flex flex-col items-center'>
         <ul className='flex gap-8'>

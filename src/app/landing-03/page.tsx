@@ -6,6 +6,7 @@ import SectionCategories from "./components/SectionCategories"
 import SectionInfo from "./components/SectionInfo"
 import SectionGallery from "./components/SectionGallery"
 import SectionOurServices from "./components/SectionOurServices"
+import SectionCustomerReviews from "./components/SectionCustomerReviews"
 
 const lato = Lato({
   subsets: ['latin'],
@@ -19,12 +20,13 @@ export const metadata: Metadata = {
 
 const Landing03 = () => {
   return (
-    <div className={`${lato.className} max-w-[1440px]`}>
+    <div className={`${lato.className} max-w-[1440px] mx-auto`}>
       <Navbar />
       <Hero />
       <SectionCategories />
       <SectionInfo />
       <SectionGallery />
+      <SectionCustomerReviews />
       <SectionOurServices />
     </div>
   )

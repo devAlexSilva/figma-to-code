@@ -3,11 +3,11 @@ import rings from '@/app/landing-03/assets/rings.png'
 import bracelets from '@/app/landing-03/assets/bracelets.png'
 import engagementRings from '@/app/landing-03/assets/engagement ring.png'
 import necklaces from '@/app/landing-03/assets/necklaces.png'
-import Section01Itens from './SectionCategoriesItens'
+import Section01Itens from './CategoriesItens'
 
-const Section01 = () => {
+const SectionCategories = () => {
   return (
-    <div className="h-96 max-w-[1230px] mx-auto my-12">
+    <div className="max-w-[1230px] mx-auto mt-16">
       <h1 className="w-[584px] h-10 mb-12 text-sky-900 text-4xl font-black uppercase tracking-tight">Shop by Jewelry Type</h1>
       <ul className='flex gap-8'>
         <Section01Itens prodImg={earring} alt='brincos prateados' description='earring' />
@@ -20,4 +20,4 @@ const Section01 = () => {
   )
 }
 
-export default Section01
+export default SectionCategories
