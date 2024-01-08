@@ -7,6 +7,7 @@ import SectionInfo from "./components/SectionInfo"
 import SectionGallery from "./components/SectionGallery"
 import SectionOurServices from "./components/SectionOurServices"
 import SectionCustomerReviews from "./components/SectionCustomerReviews"
+import Footer from "./components/Footer"
 
 const lato = Lato({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ const Landing03 = () => {
       <SectionGallery />
       <SectionCustomerReviews />
       <SectionOurServices />
+      <Footer />
     </div>
   )
 }
