@@ -40,9 +40,11 @@ const Footer = () => {
       <div className='w-full mt-9 border-t border-gray-300 h-24'>
         <div className='flex justify-between items-center h-full max-w-[1230px] mx-auto'>
           <span>© Blue Diamond Jewelry™ 2024</span>
-          <div>
-            <img className="w-8 h-8" src="https://via.placeholder.com/32x32" />
-          </div>
+          <ul className='flex gap-4'>
+            <li><img className="w-8 h-8" src="https://via.placeholder.com/32x32" /></li>
+            <li><img className="w-8 h-8" src="https://via.placeholder.com/32x32" /></li>
+            <li><img className="w-8 h-8" src="https://via.placeholder.com/32x32" /></li>
+          </ul>
         </div>
       </div>
     </div>
