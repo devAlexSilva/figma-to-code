@@ -10,8 +10,9 @@ export default function Home() {
     <div className='h-[800px]'>
       <main>
         <img className='relative w-full h-[680px] rounded-b-3xl' src={data[selectedLandingPage].imageUrl} alt="" />
+        <div className='absolute inset-0 w-full h-[680px] rounded-b-3xl bg-gray-400 backdrop-blur-sm bg-opacity-10'/>
         <div className='absolute inset-y-0 inset-x-0'>
-          <div className='w-[580px] ml-16 pt-6 font-["Lato"] text-white'>
+          <div className='w-[90%] sm:w-[580px] ml-4 sm:ml-16 pt-2 md:pt-6 font-["Lato"] text-white'>
             <h1 className='text-7xl font-semibold tracking-wide'>{data[selectedLandingPage].title}</h1>
             <p className='my-8 text-2xl font-normal'>{data[selectedLandingPage].description}</p>
             <a href={data[selectedLandingPage].link}>
@@ -20,7 +21,7 @@ export default function Home() {
               </button>
             </a>
           </div>
-          <ul className='h-40 flex justify-center absolute z-10 bottom-[-5rem] gap-3 max-w-[80%] mx-auto inset-x-0 rounded-3xl overflow-hidden'>
+          <ul className='h-40 flex justify-center absolute z-10 bottom-10 md:bottom-[-5rem] gap-1 lg:gap-3 max-w-[92%] lg:max-w-[80%] mx-auto inset-x-0 rounded-3xl overflow-hidden'>
             {
               data.map((item, index) => <HomeCard key={index} index={index} item={item} selectLandingPage={setSelectedLandingPage} />)
             }
